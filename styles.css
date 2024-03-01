@@ -1,0 +1,148 @@
+
+ *{
+    margin:0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+    
+}
+body h3 {
+  text-decoration: underline;
+}h2{
+  text-decoration: underline;
+}
+.container h2{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+ float: right;
+}
+li a{
+  display: block;
+  color:rgb(59, 53, 53);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: bisque;
+}
+ .logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float:left;
+  color: black;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+nav{
+position: -webkit-sticky;
+position: sticky;
+top:0;
+  background-color: darkgray;
+}
+
+.firstpage img{
+    float:inline-start;
+}
+ .parent{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;;
+
+ }
+
+ .par p{
+text-align: left;
+ }
+ .par p h3{
+    text-decoration:underline;
+ }
+ 
+
+ .decor img{
+    height:212px
+ }
+ .HomeStyle img{
+    width:234px;
+    height: 212px;
+ }
+ .Design img{
+ height:212px
+ }
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:none;
+    color:black;
+    text-align: center;
+  }
+
+   
+
+    
